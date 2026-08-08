@@ -73,7 +73,7 @@ export const BotCapabilitiesConsole: React.FC<BotCapabilitiesConsoleProps> = ({ 
   ];
 
   return (
-    <div className="bg-[#080D1A] border border-sky-400/20 rounded-2xl p-4 sm:p-6 shadow-[0_12px_40px_rgba(0,180,255,0.1)] backdrop-blur-2xl space-y-6">
+    <div className="bg-[#080D1A] border border-sky-400/20 rounded-2xl p-4 sm:p-6 shadow-[0_8px_24px_rgba(0,0,0,0.4)] space-y-6">
       {/* Title Header */}
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-4 border-b border-sky-500/15">
         <div className="flex items-center gap-3">

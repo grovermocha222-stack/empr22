@@ -34,8 +34,8 @@ export const WalletModal: React.FC<WalletModalProps> = ({ isOpen, onClose, onSim
   };
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 bg-black/85 backdrop-blur-md animate-fade-in">
-      <div className="relative w-full max-w-[calc(100vw-2rem)] sm:max-w-lg bg-[#080D1A] border border-sky-400/30 rounded-2xl p-4 sm:p-6 shadow-[0_20px_60px_rgba(0,180,255,0.2)] space-y-5 text-gray-100 font-mono backdrop-blur-2xl max-h-[90vh] overflow-y-auto">
+    <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 bg-black/80 sm:backdrop-blur-sm animate-fade-in">
+      <div className="relative w-full max-w-[calc(100vw-2rem)] sm:max-w-lg bg-[#080D1A] border border-sky-400/30 rounded-2xl p-4 sm:p-6 shadow-[0_20px_60px_rgba(0,0,0,0.8)] space-y-5 text-gray-100 font-mono max-h-[90vh] overflow-y-auto">
         {/* Modal Header */}
         <div className="flex items-center justify-between pb-4 border-b border-sky-500/20">
           <div className="flex items-center gap-3">

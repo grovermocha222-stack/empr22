@@ -20,7 +20,7 @@ export const Header: React.FC<HeaderProps> = ({ currentTier, balance, onOpenWall
   };
 
   return (
-    <header className="sticky top-0 z-40 bg-[#060A12]/95 backdrop-blur-xl border-b border-sky-500/15 shadow-[0_4px_30px_rgba(0,180,255,0.08)]">
+    <header className="sticky top-0 z-40 bg-[#060A12]/98 sm:backdrop-blur-md border-b border-sky-500/15 shadow-[0_4px_20px_rgba(0,180,255,0.08)]">
       <div className="max-w-7xl mx-auto px-2.5 sm:px-6 lg:px-8 h-14 sm:h-18 flex items-center justify-between gap-1.5 sm:gap-4">
         {/* Brand with Penguin Logo */}
         <div className="flex items-center gap-2 sm:gap-3 shrink-0">

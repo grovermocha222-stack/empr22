@@ -50,7 +50,7 @@ export const SimulatePanel: React.FC<SimulatePanelProps> = ({
   return (
     <div
       ref={containerRef as React.RefObject<HTMLDivElement>}
-      className="bg-[#080D1A] border border-sky-400/20 rounded-2xl p-4 sm:p-6 shadow-[0_12px_40px_rgba(0,180,255,0.1)] backdrop-blur-2xl relative overflow-hidden"
+      className="bg-[#080D1A] border border-sky-400/20 rounded-2xl p-4 sm:p-6 shadow-[0_8px_24px_rgba(0,0,0,0.4)] relative overflow-hidden"
     >
       <div className="relative z-10 space-y-6">
         {/* Header */}

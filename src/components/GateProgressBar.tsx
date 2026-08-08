@@ -36,7 +36,7 @@ export const GateProgressBar: React.FC<GateProgressBarProps> = ({
   };
 
   return (
-    <div className="bg-[#080D1A] border border-sky-400/20 rounded-2xl p-4 sm:p-6 shadow-[0_8px_30px_rgba(0,180,255,0.1)] backdrop-blur-2xl space-y-5">
+    <div className="bg-[#080D1A] border border-sky-400/20 rounded-2xl p-4 sm:p-6 shadow-[0_8px_24px_rgba(0,0,0,0.4)] space-y-5">
       {/* Header and Next Tier distance readout */}
       <div className="flex flex-col md:flex-row md:items-center justify-between gap-3 pb-3 border-b border-sky-500/15">
         <div>

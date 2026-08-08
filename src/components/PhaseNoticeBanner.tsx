@@ -7,8 +7,8 @@ interface PhaseNoticeBannerProps {
 
 export const PhaseNoticeBanner: React.FC<PhaseNoticeBannerProps> = ({ onFocusSimulator }) => {
   return (
-    <div className="relative overflow-hidden rounded-xl sm:rounded-2xl bg-gradient-to-r from-[#080D1A] via-[#0B1326] to-[#070A14] border border-sky-400/25 p-3.5 sm:p-5 shadow-[0_8px_30px_rgba(0,180,255,0.12)] backdrop-blur-2xl">
-      <div className="absolute top-0 right-0 w-60 h-60 bg-sky-400/[0.08] rounded-full blur-3xl pointer-events-none" />
+    <div className="relative overflow-hidden rounded-xl sm:rounded-2xl bg-gradient-to-r from-[#080D1A] via-[#0B1326] to-[#070A14] border border-sky-400/25 p-3.5 sm:p-5 shadow-[0_8px_30px_rgba(0,180,255,0.12)]">
+      <div className="absolute top-0 right-0 w-48 h-48 bg-sky-400/[0.05] rounded-full pointer-events-none" />
       
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 relative z-10">
         <div className="flex items-start gap-2.5 sm:gap-3.5">

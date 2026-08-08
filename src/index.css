@@ -1,8 +1,12 @@
 @import "tailwindcss";
 
 @layer base {
-  body {
+  html, body {
+    background-color: #050811;
+    color-scheme: dark;
     font-family: 'Plus Jakarta Sans', sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-font-smoothing: antialiased;
   }
   
   code, pre, .font-mono {

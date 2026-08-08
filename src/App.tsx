@@ -23,12 +23,9 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen bg-[#050811] text-gray-200 flex flex-col font-sans selection:bg-sky-500/30 selection:text-sky-200 relative overflow-x-hidden">
-      {/* Frosted Glass Ambient Lighting Effects */}
-      <div className="fixed inset-0 pointer-events-none z-0 overflow-hidden">
-        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[1100px] h-[450px] bg-gradient-to-b from-sky-500/[0.12] via-cyan-500/[0.04] to-transparent blur-[140px] rounded-full pointer-events-none" />
-        <div className="absolute top-1/2 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-sky-500/20 to-transparent -translate-y-1/2 z-0 pointer-events-none"></div>
-      </div>
+    <div className="min-h-screen bg-[#050811] bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(56,189,248,0.15),rgba(255,255,255,0))] text-gray-200 flex flex-col font-sans selection:bg-sky-500/30 selection:text-sky-200 relative overflow-x-hidden">
+      {/* Subtle Ambient Accent Line */}
+      <div className="absolute top-1/2 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-sky-500/15 to-transparent -translate-y-1/2 pointer-events-none z-0"></div>
 
       {/* Persistent Header */}
       <Header

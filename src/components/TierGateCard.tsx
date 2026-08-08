@@ -37,16 +37,13 @@ export const TierGateCard: React.FC<TierGateCardProps> = ({
   };
 
   return (
-    <motion.div
-      initial={{ opacity: 0, y: 15 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.3 }}
-      className={`relative rounded-xl sm:rounded-2xl backdrop-blur-2xl transition-all duration-300 flex flex-col justify-between overflow-hidden p-4 sm:p-6 ${
+    <div
+      className={`relative rounded-xl sm:rounded-2xl transition-all duration-300 flex flex-col justify-between overflow-hidden p-4 sm:p-6 ${
         isCurrentTier
-          ? 'bg-[#0B1326] border-2 border-cyan-400 shadow-[0_0_35px_rgba(56,189,248,0.28)] ring-1 ring-cyan-400/40'
+          ? 'bg-[#0B1428] border-2 border-cyan-400 shadow-[0_0_35px_rgba(56,189,248,0.28)] ring-1 ring-cyan-400/40'
           : isUnlocked
-          ? 'bg-[#070D1A] border border-sky-400/35 hover:border-sky-300/70 shadow-[0_6px_24px_rgba(0,0,0,0.5)] hover:shadow-[0_0_24px_rgba(56,189,248,0.18)]'
-          : 'bg-[#050811]/90 border border-white/5 opacity-60 hover:opacity-85'
+          ? 'bg-[#070E1E] border border-sky-400/35 hover:border-sky-300/70 shadow-[0_6px_24px_rgba(0,0,0,0.5)] hover:shadow-[0_0_24px_rgba(56,189,248,0.18)]'
+          : 'bg-[#050914] border border-white/5 opacity-70 hover:opacity-90'
       }`}
     >
       {/* Top Gate Status Accent Line */}
@@ -154,7 +151,7 @@ export const TierGateCard: React.FC<TierGateCardProps> = ({
           <ArrowRight className="w-3 h-3 sm:w-3.5 sm:h-3.5" />
         </button>
       </div>
-    </motion.div>
+    </div>
   );
 };
 
