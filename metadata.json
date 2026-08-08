@@ -1,0 +1,6 @@
+{
+  "name": "EMPR Access Gate",
+  "description": "Token-gated access verification platform demo for $EMPR crypto trading bot",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
